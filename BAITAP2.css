@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: blue;
+
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.wed ul{
+    list-style: none;
+    background-color: black;
+
+}
+.wed ul li {
+    display: inline-block;
+    padding: 20px;
+
+}
+ .wed3 h1{
+    color:gold;
+}
+.wed4 p{
+    color: blue;
+}
+
+
+
+

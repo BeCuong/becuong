@@ -1,0 +1,414 @@
+BUỔI 1
+
+
+
+<!--
+index.html có nghĩa ntn  
+
+
+
+
+
+
+-->
+<!DOCTYPE html><!-- có nghĩa là thư viện có tên html-->
+<html lang="en"><!-- thẻ htmlcos atribute là language và giá trị của english-->
+<head><!--Thẻ đầu-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đây là trang web đầu tiên</title>
+</head>
+</body>
+<!--
+    atribute là : thuộc tính của thẻ, nó sẽ cung cấp thông tinboor sung về các phần tử 
+    nó chỉ xuất trong thẻ mở 
+    cấu trúc viết atribute
+    <name>content</name>
+    <tên_thẻ name="value">
+-->
+<!--
+    Một số thẻ cơ bản của html
+    2 loại
+    -- Thẻ Trung tính-- 
+    thẻ trung tính là thẻ có mở và có đóng
+    Ví dụ: <h1>content</h1>
+
+    1.Tiêu đề 
+    h1 :là 1 thẻ trung tính , có chức năng là tiêu đề của phần bên dưới là duy nhất 
+    h2 là 1 thẻ trung tính có chức năng là tiêu đề của phần content và nó có nhiều
+    2. Nội Dung
+    p : là thẻ trung tính có chức năng là hiển thị nội dung 
+    b: là thẻ trung tính và có chức năng in đâm content 
+    i : là thẻ trung tính có chức năng là in nghiêng content
+    u : là thẻ trung tính có chức năng gạch chân content
+    strike : là thẻ trung tính có chức năng gạch thẳng vào content
+    strong : là thẻ trung tính có chức năng là in đam content 
+    label : là thẻ trung tính có chức năng là tiêu dồ trong fom
+    marquee : là thẻ trung tính có chức năng cho content chạy 
+    small : là thẻ trung tính có chức năng là giúp content nhỏ hơn bình thường
+    big : là thẻ trung tính có chức năng là giúp content to hơn bình thường 
+    form : là thẻ trung tính có chức năng Lồng tất cả các trường ghi ở trong giúp lấy thông tin người dùng
+    dễ dàng (php)
+    button: là thẻ trung tính có chức năng là 1 cái nút 
+    -- có 4 kiểu ( kiểu nút, kiểu submit , kiểu menu, kiểu RS)
+    div: là thẻ trung tính và có chức năng là phục vụ css
+    audio : là thẻ trung tính có chức năng là phát âm thanh
+    idrame : là thẻ trung tính có chức năng là chạy video
+    Thẻ link -- a : là thẻ trung tính và nó sẽ có chức năng là chuyển hướng trang
+    Thẻ danh sách 
+    dạng chấm (ul, li)
+    Dạng số (ol, li)
+    -- Thẻ Đơn Tính : có nghĩa là chỉ có thẻ mở
+    img : LÀ thẻ đơn tính và có chức năng hiển thị ảnh 
+    input : Là thẻ đon tính và chức năng là o cho người dùng đăng nhập
+    và sẽ có 4 kiểu (text, password, checkbox,color )
+    br : là thẻ đơn tính có chức năng là xuống dòng
+    hr là thẻ đơn tính có chức năng kẻ đường ngăn giữa trang wed
+   table(bảng ) là thẻ trung tính và nó là Bảng
+    -->
+  <h1> Đây là thẻ H1</h1>
+  <h2>Đây là Thẻ h2</h2>
+  <h3>Đây là tiêu đề H3</h3>
+</body>
+<p>Đây là Nội Dung</p>
+<b>Đây là Nội dung in đậm </b>
+<br>
+<i>Đây là nội dung được tác đông in nghiêng</i>
+<br>
+<u>Đây là nội dung được tác đông gạch chân </u>
+<p>Giá: <strike>500.000</strike> 200.000</p>
+<strong>đây là thẻ strong</strong>
+<br>
+<label for="">Tên Đăng Nhập</label><input type="text">
+<marquee behavior="" direction="">Đây là thẻ marquee</marquee>
+<small>Đây là thẻ small</small>
+<br>
+<big>Đây là thẻ big</big>
+<br>
+<button>Đây là Nút</button>
+<audio controls>
+    <source src="AiRoiCungBoAnhDi-VoVanDuc-5350117.mp3" type="">
+</audio>
+<a href="https://www.youtube.com/watch?v=EANer_SzmIk">Anh Độ ở Trong Này nè!!</a>
+<ol>
+    <li> ỐC</li>
+    <li>Hến</li>
+    <li>Tôm</li>
+    <li>Cua</li>
+</ol>
+<img src="https://scontent.fhan5-4.fna.fbcdn.net/v/t39.30808-6/259571745_1287845834977192_3067918474663805271_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=-uY6txa7Sj0AX8R5_-F&_nc_ht=scontent.fhan5-4.fna&oh=387bea0871e59c97a3cb73e18ec28bb6&oe=61A13BD4">
+<br>
+<input type="password">
+<input type="radio" name="gender" id=""> <label for="">Nam</label>
+<input type="radio" name="gender" id=""> <label for="">Nữ</label>
+<input type="radio" name="gender" id=""> <label for="">BDê</label>
+<!-- Cấu trúc form-->
+<form> 
+    <h2>Đăng Nhập</h2>
+    <label for="">Tên Đăng Nhập</label>
+    <input type="text">
+    <br>
+    <label for="">Mật Khẩu</label>
+    <input type="password">
+    <br>
+    <button type="button">login</button>
+    <br>
+    <input type="checkbox">
+    <label for="">Nhớ Mật Khẩu</label>
+</form>
+<table border="1">
+    <!-- table head-->
+    <thead>
+        <th>stt</th>
+        <th>Lớp</th>
+        <Th>Tên</Th>
+    </thead>
+    <!-- Table body-->
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Nguyễn Chí cương</td>
+        <td>DH9c3</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ĐANG NGU</td>
+        <td>DH9C3</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>CÔNG NGU</td>
+        <td>DH9C3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>CƯỜNG NGU</td>
+        <td>DH9C3</td>
+    </tr>
+</tbody>
+
+</table>
+
+vị trí thẻ style nằm cuối head và đầu
+important là câu lệnh được ưu tiên !! và phá vỡ mọi định luật
+
+
+
+
+
+
+
+BUỔI 2
+
+/* 
+rel có nghĩa là một dạng thuộc tính dùng để quy định liên kết đén trang wed nào đó 
+ Và có giá trị là stylesheet
+href là đường dẫn tới file cần link
+-->
+
+<!--
+    css: được viết tắt của từ : cascading style sheet
+    chức năng là tạo màu nên cho wed
+    css có 3 cách 
+    css external : nó sẽ là css gián tiếp là có 1 file rồi dùng thẻ link để kéo file đó vào 
+                   Và có giá trị là stylesheet
+    các thể loại css : chữ Khối 
+    -- css chữ --
+    color : màu chữ
+    text-align: Căn chữ
+    text-shadow: ĐỔ Bóng cho chữ. 
+    text-tranform: capitalize (Viết in chữ cái đầu)
+                  uppercase    (viết in all)
+                  note      (Ban đầu)
+text shadow: 
+-- css chữ --
+    color : màu chữ
+    text-align: Căn chữ !!!center                                   !!!!!!!
+    text-shadow: ĐỔ Bóng cho chữ. 
+    text-tranform: capitalize (Viết in chữ cái đầu)
+                  uppercase    (viết in all)
+                  note      (Ban đầu)
+   text-decoration: có chức năng là xóa gạch chân
+   lettee-spacing : tạo độ giãn giữa các chữ
+   --css font--
+      font size: định dạng cỡ chữ 
+      font-family: định dạng kiểu phông
+      font weight : làm dày nét chữ và giá trị sẽ giao động tứ 100 đến 800 hoặc bow
+      font style :  là Phong cách chữ
+-- css Kích thước ảnh --
+width: là chiều rộng(áp dụng cho khối và ảnh)
+height chiều cao
+-- css selector : nó là mô hình hộp < nó sẽ gọi từ thằng bố xuống cái thằng con rồi đên cái thằng cần css
+-- css Khối--
+background : xét màu cho nền
+
+list-style : xóa chấm cho danh sách
+ 
+text decoration xóa gạch chân cho thẻ link
+
+--css inline: là css trực tiếp vào thẻ và coi CSS là một atribute 
+
+
+
+
+
+*/
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.ten img{
+    width: 500px;
+    height: 500px;
+}
+.ten h1{
+    font-weight: initial;
+}
+  .ten .ten-2 h1{
+    color: lawngreen;
+}
+.menu{
+    background-color: lawngreen ;
+    color: maroon;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+
+Buổi 3
+
+
+ reset css(để tất cả các box-model các thẻ )
+    * :có nghiaz là tất cả (all)
+    magin (lề) : 0
+
+
+
+
+box-model:
+K/n:chung: mỗi phần tử trong 1 trang wed đều là 1 khối hình chữ nhật riêng biệt 
+    Riêng: sẽ được hiểu là sự chiếm không gian của phần tử trong trang wed và nó sẽ là tổng của 
+    1 content: Nội dung
+    2 border: đường viền 
+    3 padding: khoảng đệm
+    4 margin : khoảng cách từ border của thằng này sang border  của thằng khác 
+    Cấu trúc:
+    margin: top right bottom left đơn vị sẽ là px/rem
+    padding: top right bottom left đơn vị sẽ là px/rem
+    margin-top: px
+    margin-left: px
+    Viết tắt-TRên Phải Dưới Trái
+    Trường hợp dùng margin: khi mà căn khối
+    trường hợp dùng padding: khi mà căng content
+    border: ĐƯỢC hiểu như là đường biên giới
+    border-width: chức năng là xét giá trị cho độ rộng của viền
+    border-style: có chức năng là xét cho viền
+    border-color: có chức năng xét màu cho viền
+    Cú pháp Viết tắt của border sẽ là : 
+    border: width style color:
+
+
+--display--
+key : valuel;
+inline-block(xóa độ chiếm dòng của thẻ )
+block : Chiếm Nguyên 1 dòng
+
+
+
+    /* 
+    reset css (để tất cả box-model các thẻ về default)
+    * : có nghĩa là tất cả(all)
+    margin (lề) : 0;
+    */
+   margin : 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+  --display--
+  key : value;
+  inline-block (xoá độ chiếm dòng của thẻ)
+  block nó sẽ là chiếm nguyên 1 dòng
+
+
+
+
+  Buổi 4
+
+
+  line-height : có chức năng là tạo đỗ giãn giữa các dòng 
+  1: background color : chức năng là xét màu cho nền
+  2 background-image : có chức năng là tạo ảnh cho nền
+      Cấu trúc background-image :
+   3: background-repeat: có chức năng lặp lại theo chiều ngang (defaull) repeat Chiều dọc : No là k lặp 
+
+   4:  background-position: có chức năng là xét vị trí cho nền (left center right)
+   5: background-size: có chức năng là xét cỡ của background (cover sét kích thước vừa với chiều rộng của khối)
+   
+
+   Cấu trúc: tên thẻ :hover{
+       code
+   }
+hover: có chức năng là biển đổi khi trỏ chuột đến 
+
+-- float-- xét độ trôi của thẻ 
+left: có chức năng giúp phần tửu trôi bên Trái
+
+right: có chức  năng giúp trôi sang bên Phải
+
+--có float ắt Phải có clear--
+
+clear có chức năng xóa trôi trái phải 
+Cấu trúc float: <li style="float: left;" >Home</li>
+ transition: thời gian nháy
+ clear-bot: khắc chế phần thừa của trôi
+
+
+
+ Buổi 4
+
+
+
+--- position--
+relative: Tương đối
+absoluse: Tuyệt đối
+fixed: Bám theo khung của trang wed
+sticty: gần như là không dùng 
+
+-relative: là tương đối và nó có chức năng là năm đè lên thẻ khác 
+-absoluse: là Tuyệt đối và có chức năng là như relative nhưng nó sẽ nhận thằng relative gần nhất là Cha để Hiển thị
+
+fixed : Là tuyệt đối và nó có chức năng là Gim Phần tử đó cố định lại !
+
+
+
+
+
+
+/*@media not | onlu mediatype and(media) {
+    --code css--  
+}
+
+ mediatype
+--all" dùng cho mọi thiết bị 
+--print: Dùng cho máy in 
+--screen: Dùng cho máy tính và các thiết bị thông minh 
+Phân biết thuộc tính theo 2 khái niệm: 
+-device: là thiết bị sử dung wedsite(laptop, desktop, iphone)
+viewport: là kích thước hiển thi của giao diện 
+media feature nó là đặc tính của thiết bị 
+//tính chất : sẽ gồm các thuộc tính sau::
+-device-height: chiều cao của thiết bị 
+-device-width : chiều rộng của thiết bị 
+width : chiều rộng của viewport
+heigth : chiều cao -----
+max-width : chiều rộng tối đa của viewport
+min-width : chiều rộng tối thiểu 
+max-height: chiều cao tối đa của viewport
+min-heigth: chiều cao tối thiểu 
+orientation : định hướng khung nhìn (xoay hoặc k xoay thiết bị )
+resolution: độ phân giải của thiết bị 
+ví dụ::
+@media 
+
+
+Phân loại đọ phân giải 
+-phone classic
+0px->480px
+481px->767px
+-device medium
+768px->1024px
+-device max 
+1024px
+
+
+
+
+-- Đối với thiết bị <= 1023px 
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+BUổi 5 
